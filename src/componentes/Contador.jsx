@@ -15,8 +15,8 @@ export default ({ inicial = 0, passo = 1 }) => {
         setNumero(numero - passo);
     }
 
-    const parImpar = _=> numero % 2 == 0 ? setResultado("par") 
-                                         : setResultado("impar");
+    const parImpar = _=> numero % 2 == 0 ? setResultado("Par") 
+                                         : setResultado("Impar");
 
     return (
         <>
